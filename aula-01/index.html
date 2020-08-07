@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário</title>
+    <meta charset="utf-8" />
+    <link href="css/estilo.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="content">
+        <h2>Envie uma mensagem preenchendo o formulário abaixo</h2>
+
+        <form>
+            <div class="fields">
+                <label>Seu Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div class="fields">
+                <label>Seu Telefone:</label>
+                <input type="text" id="tel" />
+            </div>
+            <div class="fields">
+                <label>Seu Email:</label>
+                <input type="text" id="email" />
+            </div>
+            <div class="fields">
+                <label>Deseja receber novidades?</label>
+                <br>
+                <label><input type="radio" name="opcao" >Sim</label>
+                <label><input type="radio" name="opcao">Não</label>
+            </div>
+            <div class="fields">
+                <label>Sua mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+
+            <button class="btn" type="button" onclick="window.location.href = 'tabela.html' ">Enviar</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

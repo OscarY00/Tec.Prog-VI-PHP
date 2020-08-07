@@ -1,0 +1,22 @@
+div.content{
+    margin: 30px auto;
+    padding: 10px;
+ 
+}
+
+h1,nav{
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+    height: 20px;
+    text-align: left;
+}
